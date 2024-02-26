@@ -14,9 +14,9 @@ export default {
         }
     },
     mounted(){
-        if(this.score < 250){
+        if(this.score < 450){
             this.rank = 'Ninja Fingers'
-        }else if(this.score < 400){
+        }else if(this.score < 800){
             this.rank = 'Rapid Reflexese'
         }
         else{
